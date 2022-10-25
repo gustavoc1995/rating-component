@@ -1,0 +1,145 @@
+:root {
+    --dark-blue: #262E38;
+    --light-gray: #969fad;
+    --medium-gray: #7c8798;
+    --orange: #FC7614;
+    --very-dark: #131518;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: var(--very-dark);
+    font-family: 'Overpass', sans-serif;
+}
+
+
+
+.card-container {
+    width: 279px;
+    height: 360px;
+    margin: 152px auto;
+    padding: 24px;
+    color: white;
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    border-radius: 5%;
+}
+
+.rating-container {
+    
+}
+
+.icon-container {
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+    background-color: var(--dark-blue);
+
+}
+
+.icon {
+    width: 14px;
+    height: 14px;
+    margin: 14px;
+}
+
+.title {
+    list-style: 30.5px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-text {
+    line-height: 22px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: var(--light-gray);
+}
+
+.numbers-container {
+    width: 100%;
+    height: 42px;
+    margin: 24px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.rating-number {
+    all: unset;
+    width: 42px;
+    height: 42px;
+    background-color: var(--dark-blue);
+    border-radius: 100%;
+    text-decoration: none;
+    color: var(--light-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating-number:hover {
+    background-color: var(--medium-gray);
+    color: white;
+}
+
+.rating-number:active {
+    background-color: var(--orange);
+    color: white;
+}
+
+.submit-button {
+    all: unset;
+    width: 100%;
+    height: 45px;
+    background-color: var(--orange);
+    border-radius: 24px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none;
+}
+
+.submit-button:hover {
+    background-color: white;
+    color: var(--orange);
+}
+
+.submited-card{
+    display: none;
+}
+
+.image-container{
+    width: 144px;
+    height: 96px;
+    margin: 34px auto;
+    
+}
+.rating-result-container{
+    height:32px;
+    width: 168px;
+    margin: 0 auto;
+    padding: auto;
+    background-color: var(--dark-blue);
+    border-radius: 20px;
+    color: var(--orange);
+}
+.rating-result{
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.thank-message{
+    text-align: center;
+    line-height: 30.80px;
+    font-size: 24px;
+}
+.card-parraghap{
+    text-align: center;
+    font-weight: 300;
+    line-height: 22px;
+    font-size: 14px;
+    color: var(--light-gray);
+}
